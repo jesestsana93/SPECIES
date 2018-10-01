@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  	<head>
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	    <meta charset="utf-8">
+	    
+	    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+	    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	    <link href='image/faviconC3.png' rel='shortcut icon' type='image/png'/>
+	    <title>SPECIES</title>
+	    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+	    <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+	    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+	    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115398620-1"></script>
+		<script>
+		  	window.dataLayer = window.dataLayer || [];
+		  	function gtag(){dataLayer.push(arguments);}
+		  	gtag('js', new Date());
+		  	gtag('config', 'UA-115398620-1');
+		</script>
+
+	    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	    <script type="text/javascript" src="js/popper.js"></script>
+	    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="js/slick.min.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+
+  	</head>
+
+  	<body >
+
+	    <header>
+
+	    </header>
+
+	    <div id="header-mobile" class="mobile">
+
+	    </div>
+
+		<div class="cont top">
+			<div id="menu-mobile" class="mobile">
+			</div>
+
+	    	<div class="cont">
+	  			<div class="col-sm-12 col-md-12 col-xl-12 p-0">
+
+			     	<div id="banner">
+				        
+				        <div class="hidden-arrows" style="display: none;"></div>
+				        <div class="sliderBanner">
+				        	<div class=" slider">
+					            <a href="#"><img src="image/banner/BannerSpecies.png" alt="BannerSpecies"></a>
+					        </div>				        	
+					    </div>
+					</div>
+				</div>
+									
+					<div class="cont">
+					    <div class="row">
+					    	<div class="col-md-3">
+					    		<center>
+					    			<a href="#"><img src="image/logotipos/Tutorial.png" class="img-circle img-responsive"></a>
+				    				<a href="#"><h4 class="negro">TUTORIAL</h4></a>
+								</center>
+					    	</div>
+					    	<div class="col-md-3">
+					    		<center>
+					    			<img src="image/logotipos/Used cases.png" alt="">
+					    			<a href="#"><h4 class="negro">USED CASES</h4></a>
+					    		</center>
+					    	</div>
+					    	<div class="col-md-3">
+					    		<center>
+					    			<img src="image/logotipos/Explore.png" alt="">
+					    			<a href="#"><h4 class="negro">EXPLORE</h4></a>
+					    		</center>
+					    	</div>
+					    	<div class="col-md-3">
+					    		<center>
+					    			<img src="image/logotipos/Associated projects.png" alt="">
+					    			<a href="#"><h4 class="negro">ASSOCIATED PROJECTS</h4></a>
+					    		</center>
+					    	</div>
+					    </div>
+
+					    <div class="row">
+					    	<div class="col-md-4">
+					    		<center>
+					    			<img src="image/logotipos/Equipment.png" alt="">
+					    			<a href="#"><h4 class="negro">EQUIPMENT</h4></a>
+					    		</center>
+					    	</div>
+					    	<div class="col-md-4">
+					    		<center>
+					    			<img src="image/logotipos/Institutions.png" alt="">
+					    			<a href="#"><h4 class="negro">INSTITUTIONS</h4></a>
+					    		</center>
+					    	</div>
+					    	<div class="col-md-4">
+					    		<center>
+					    			<img src="image/logotipos/Sponsors.png" alt="">
+					    			<a href="#"><h4 class="negro">SPONSORS</h4></a>
+					    		</center>
+					    	</div>
+					    	
+					    </div>
+			    	</div>
+			    </div>
+			</div>
+		</div>
+					
+	
+
+		<footer class="footerSPECIES">
+
+	    </footer>
+
+	    <script type="text/javascript">
+	      	$(document).ready(function(){
+	        	$('.sliderBanner').slick({
+	          		//dots: true,
+			        infinite: true,
+			        speed: 300,
+			        arrows: true,
+			        slidesToShow: 1,
+			        slidesToScroll: 1,
+			        autoplay: true,
+					autoplaySpeed: 3000,
+			        appendArrows: $(".hidden-arrows"),
+			        prevArrow: '<img class="prev" src="image/arrow.png">',
+			        nextArrow: '<img class="next" src="image/arrow.png">',
+	        	});
+	        	$(".arrows > .next").on("click", function(){
+	        		$(".hidden-arrows > .next").click()
+	        	});
+	        	$(".arrows > .prev").on("click", function(){
+	        		$(".hidden-arrows > .prev").click()
+	        	});	        	   	
+		    });
+	    </script>    	
+
+  	</body>
+</html>
