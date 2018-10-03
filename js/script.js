@@ -62,7 +62,7 @@ function menu(){
 	$('header').append(`
 		<div class="cont">
 			<div class="col-4 float p-0">
-				<a href="" target="_blank">
+				<a href="index.html">
 					<img src="`+pathImg+`/logotipos/species.png" alt="species">
 				</a>				
 			</div>
@@ -76,9 +76,14 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`presentacion.html" class="dropdown-item">Presentación</a>
+										<a href="`+path+`shortdescription.html" class="dropdown-item">Description</a>
 									</li>
-									
+									<li>
+										<a href="`+path+`objective.html" class="dropdown-item">Objective</a>
+									</li>
+									<li>
+										<a href="`+path+`institutions.html" class="dropdown-item">Institutions</a>
+									</li>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -87,7 +92,7 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`progacademicos.html" class="dropdown-item">Programas académicos</a>
+										<a href="`+path+`.html" class="dropdown-item">Paper</a>
 									</li>																		
 								</ul>
 							</li>
@@ -97,7 +102,7 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`eventosProximos.html" class="dropdown-item">Próximos</a>
+										<a href="`+path+`eventosProximos.html" class="dropdown-item"></a>
 									</li>																	
 								</ul>
 							</li>	
@@ -107,7 +112,7 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`eventosProximos.html" class="dropdown-item">Próximos</a>
+										<a href="`+path+`eventosProximos.html" class="dropdown-item"></a>
 									</li>																	
 								</ul>
 							</li>						

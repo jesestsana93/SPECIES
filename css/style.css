@@ -20,7 +20,7 @@ a:active, a:hover{
 	color: #FF671B !important;
 }
 .dropdown-item:active {
-    background-color:#fff !important;
+    background-color:#93C90E !important;
 }
 .float{
 	float: left;
@@ -34,8 +34,8 @@ a:active, a:hover{
 header{
   width: 100%;
   background-color: #93C90E;
-  background-image: url("../image/Pleca_menu.png");
-   background-repeat: no-repeat;
+ /*background-image: url("../image/Pleca_menu.png");*/
+  background-repeat: no-repeat;
   height: 123px;
   position: fixed;
   z-index: 999;
@@ -175,7 +175,7 @@ p{
 .tamConabio{
 	height: 120px;
 	width: 190px;
-	margin-left: 30px;
+	margin-left: 25px;
 }
 .footerSPECIES{
 	margin-top: 190px;
