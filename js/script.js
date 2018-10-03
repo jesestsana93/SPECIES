@@ -130,14 +130,16 @@ function footer(){
 		<div class="container foot">
 			<div class="row">
 				
-				<div class="col-sm-12 col-md-10">
+				<div class="col-sm-12 col-md-12">
 					<br> <br> 
-					<strong>
-						<h3 class="blanco">Ligas de interés</h3>
-					</strong>
-					
-					
-						
+					<div class="row">
+						<div class="col-md-1 ">
+														
+						</div>
+						<div class="col-sm-12 col-md-5">
+							<strong>
+								<h3 class="blanco">LIGAS DE INTERÉS</h3>
+							</strong>
 							<a href="https://www.unam.mx/" target="_blank" class="tamLinks blanco text-center">
 								Universidad Nacional Autónoma de México
 							</a>
@@ -166,14 +168,27 @@ function footer(){
 								Gaceta UNAM
 							</a> <br>							
 						</div>
-						
+
+						<div class="col-sm-12 col-md-5">
+							<div class="row">
+								<a href="https://www.c3.unam.mx/" target="_blank">
+									<img src="`+pathImg+`/logotipos/c3.png" alt="C3" class="tamC3" >
+								</a>
+								<a href="https://www.gob.mx/conabio" target="_blank">
+									<img src="`+pathImg+`/logotipos/conabio.png" alt="Conabio" class="tamConabio" >
+								</a>
+							</div>
+						</div>
 					</div>
-					<br>
+					<br> <br>
 					<div class="row">
-						<div class="col-sm-12 col-md-12 ">
+						<div class="col-md-1 ">
+														
+						</div>
+						<div class="col-sm-11 col-md-11 ">
 							<p class="blanco">
-								Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2017.Esta página y sus contenidos pueden ser reproducidos con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.De otra forma, requiere permiso previo por escrito de la institución. 
-								<a href="creditos.html" class="tamLinks blanco">Créditos</a>
+								Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2018.Esta página y sus contenidos pueden ser reproducidos con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.De otra forma, requiere permiso previo por escrito de la institución. 
+								<a href="#" class="tamLinks blanco">Créditos</a>
 							</p>							
 						</div>
 					</div>

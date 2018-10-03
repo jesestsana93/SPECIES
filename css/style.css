@@ -34,7 +34,8 @@ a:active, a:hover{
 header{
   width: 100%;
   background-color: #93C90E;
-  background-image: url("image/Pleca_menu.png");
+  background-image: url("../image/Pleca_menu.png");
+   background-repeat: no-repeat;
   height: 123px;
   position: fixed;
   z-index: 999;
@@ -166,9 +167,18 @@ p{
 .tamLinks{
 	font-size: 12pt;
 }
-
+.tamC3{
+	height: 120px;
+	width: 170px;
+	margin-left: 20px;	
+}
+.tamConabio{
+	height: 120px;
+	width: 190px;
+	margin-left: 30px;
+}
 .footerSPECIES{
-	margin-top: 210px;
+	margin-top: 190px;
 	/*height:323px;*/
 	width:100%;
 	background-color: #5B6770;
