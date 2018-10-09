@@ -81,9 +81,6 @@ function menu(){
 									<li>
 										<a href="`+path+`objective.html" class="dropdown-item">Objective</a>
 									</li>
-									<li>
-										<a href="`+path+`institutions.html" class="dropdown-item">Institutions</a>
-									</li>
 								</ul>
 							</li>
 							<li class="dropdown">
@@ -92,7 +89,7 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`.html" class="dropdown-item">Paper</a>
+										<a href="`+path+`publications.html" class="dropdown-item">Go</a>
 									</li>																		
 								</ul>
 							</li>
@@ -102,7 +99,7 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`eventosProximos.html" class="dropdown-item"></a>
+										
 									</li>																	
 								</ul>
 							</li>	
@@ -112,7 +109,7 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`eventosProximos.html" class="dropdown-item"></a>
+										
 									</li>																	
 								</ul>
 							</li>						

@@ -164,8 +164,9 @@ p{
 	height: 150px;
 }
 .caption{
-	height: 135px;
+	height: 170px;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .caption h3{
 	display: -webkit-box;
