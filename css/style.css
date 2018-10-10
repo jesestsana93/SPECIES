@@ -181,8 +181,27 @@ p{
 .tam3{
 	height: 130px;
 	width: 120px;
-	margin-bottom: 40px;
-	
+	margin-bottom: 40px;	
+}
+#title {
+	margin-top: 2.5em;
+	margin-bottom: 2em;
+}
+#search-box {
+	border-style: solid;
+	border-width: 3px;
+	display: block;
+	font-size: 14px;
+	font-weight: 700;
+	height: 24px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 300px;
+	text-align: center;
+	width: 50%;
+}
+.name {	
+	font-weight: 700;
 }
 .institutions{
 	margin-top: 25px;
