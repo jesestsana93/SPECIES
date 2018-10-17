@@ -76,11 +76,9 @@ function menu(){
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="`+path+`shortdescription.html" class="dropdown-item">Description</a>
+										<a href="`+path+`species.html" class="dropdown-item">Description</a>
 									</li>
-									<li>
-										<a href="`+path+`objective.html" class="dropdown-item">Objective</a>
-									</li>
+									
 								</ul>
 							</li>
 							<li class="dropdown">
