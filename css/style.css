@@ -34,9 +34,9 @@ a:active, a:hover{
 header{
   width: 100%;
   background-color: #93C90E;
- /*background-image: url("../image/Pleca_menu.png");*/
+  /*background-image: url("../image/Pleca_menu.png");*/
   background-repeat: no-repeat;
-  height: 123px;
+  height: 74px;
   position: fixed;
   z-index: 999;
 }
@@ -85,7 +85,7 @@ h1{
 }
 .top{
 	position: relative;
-	top: 123px;
+	top: 70px;
 }
 /*Banner*/
 #banner{
@@ -157,12 +157,17 @@ p{
 .image-responsive{
 	width: 100%;
 }
-.img-circle2{
-	margin-top: 30px;	
-	margin-bottom: 15px;
-	width: 150px;
-	height: 150px;
+.image-responsive2{
+	width: 55%;
+	height: 100%;
 }
+.img-circle2{
+	height: 130px;
+	width: 120px;
+	margin-top: 30px;	
+	margin-bottom: 5px;
+}
+
 .caption{
 	height: 170px;
     overflow: hidden;
@@ -178,11 +183,8 @@ p{
 	overflow: hidden;
 	height: auto;
 }
-.tam3{
-	height: 130px;
-	width: 120px;
-	margin-bottom: 40px;	
-}
+
+/**PARTE DEL BUSCADOR***/
 #title {
 	margin-top: 2.5em;
 	margin-bottom: 2em;
@@ -203,8 +205,12 @@ p{
 .name {	
 	font-weight: 700;
 }
+/*****/
 .institutions{
 	margin-top: 25px;
+}
+.inst2{
+	margin-top: 45px;
 }
 .tamIconos{
 	width: 35%;
@@ -223,7 +229,7 @@ p{
 	margin-left: 25px;
 }
 .footerSPECIES{
-	margin-top: 190px;
+	margin-top: 150px;
 	/*height:323px;*/
 	width:100%;
 	background-color: #5B6770;
@@ -257,4 +263,36 @@ ul.nav.navbar-right.nav-pills li{
 }
 .btnvideo{
 	margin-left: 15px;
+}
+.proyectos .titulo{
+	width: 100%;
+	margin-bottom: 0px;
+	font-size: 14pt;
+	padding: 5px 10px;
+}
+.proyectos .titulo img{
+	height: 20px;
+	margin-left: 20px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    -webkit-transition: .55s all;
+	-moz-transition: .55s all;
+	-o-transition: .55s all;
+	transition: .55s all;
+    cursor: pointer;
+}
+.proyectos .titulo img.up{
+	height: 20px;
+	margin-left: 10px;
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+.color-table > div:nth-of-type(odd){
+	background-color: #e0dada;
+}
+.clickProy{
+	cursor: pointer;
 }

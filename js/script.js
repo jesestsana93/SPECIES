@@ -63,7 +63,7 @@ function menu(){
 		<div class="cont">
 			<div class="col-4 float p-0">
 				<a href="index.html">
-					<img src="`+pathImg+`/logotipos/species.png" alt="species">
+					<img src="`+pathImg+`/logotipos/species.png" alt="species" class="image-responsive2">
 				</a>				
 			</div>
 			<div class="col-8 float p-0">
@@ -211,28 +211,28 @@ function menuMobile(){
 		<div class="cont-menu">			
 			<div class="clickMenu">
 				<div class="op">SPECIES</div>
-				<div id="optsC3" class="optsMenu">
+				<div id="optsPro" class="optsMenu">
 					<div>
-						<a href="`+path+`presentacion.html" >
-							<div>Presentación</div>
+						<a href="`+path+`#" >
+							<div></div>
 						</a>
 					</div>									
 				</div>
 			</div>
 			<div class="clickMenu">
 				<div class="op">PUBLICATIONS</div>
-				<div id="optsInv" class="optsMenu">
+				<div id="optsPro" class="optsMenu">
 					<a href="`+path+`progacademicos.html" >
-						<div>Programas académicos</div>
+						<div></div>
 					</a>					
 				</div>
 			</div>
 			<div class="clickMenu">
 				<div class="op">DATA SOURCES</div>
-				<div id="optsEvent" class="optsMenu">
+				<div id="optsPro" class="optsMenu">
 					<div>
 						<a href="`+path+`eventosProximos.html" >
-							<div>Próximos Eventos</div>
+							<div></div>
 						</a>
 					</div>					
 				</div>
@@ -242,7 +242,7 @@ function menuMobile(){
 				<div id="optsPro" class="optsMenu">
 					<div>
 						<a href="`+path+`comnoticias.html" >
-							<div>C3 Noticias</div>
+							<div></div>
 						</a>
 					</div>
 					

@@ -15,9 +15,6 @@
   .slick-dots{
     display: none !important;
   }
-  .leonardo{
-    padding: 30px 20px 100px;
-  }
 }
 
 @media screen and (max-width: 830px) {
@@ -47,7 +44,7 @@
   #header-mobile{
     width: 100%;
     background: #93C90E;
-
+    /*background-image: url("../image/Pleca_menu.png");*/
     height: 80px;
     position: fixed;
     z-index: 999;
@@ -207,22 +204,7 @@
     border: none;
   }*/
   #optsPro.open{
-    height: 150px;
-  }
-  #optsCon.open{
-    height: 120px;
-  }
-   #optsC3.open{
-    height: 150px;
-   }
-  #optsInv.open{
-    height: 60px;
-  }
-  #optsuap.open{
-    height: 90px;
-  }
-  #optsEvent.open{
-    height: 180px;
+    height: 10px;
   }
   /*Banner*/
   #banner  .arrows{
