@@ -158,8 +158,9 @@ p{
 	width: 100%;
 }
 .image-responsive2{
-	width: 55%;
-	height: 100%;
+	width: 80%;
+	height: 120%;
+	margin-bottom: 30px;
 }
 .img-circle2{
 	height: 130px;
