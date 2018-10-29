@@ -70,46 +70,29 @@ function menu(){
 				<nav class="navbar nav-bar-default p-0 center-cont">
 					<div class="container-fluid p-0 center-elem">
 						<ul class="nav navbar-right nav-pills">
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									SPECIES<span class="caret"></span>
+							<li>
+								<a href="`+path+`species.html"  role="button" aria-haspopup="true" aria-expanded="false">
+									SPECIES &#9660;<span class="caret"></span>
 								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="`+path+`species.html" class="dropdown-item">Description</a>
-									</li>
-									
-								</ul>
+								
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									PUBLICATIONS<span class="caret"></span>
+							<li>
+								<a href="publications.html">
+									PUBLICATIONS &#9660;<span class="caret"></span>
 								</a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="`+path+`publications.html" class="dropdown-item">Go</a>
-									</li>																		
-								</ul>
+								
 							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									DATA SOURCES<span class="caret"></span>
+							<li>
+								<a href="#" role="button" aria-haspopup="true" aria-expanded="false">
+									DATA SOURCES &#9660;<span class="caret"></span>
 								</a>
-								<ul class="dropdown-menu">
-									<li>
-										
-									</li>																	
-								</ul>
+								
 							</li>	
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-									DATA TOOLS<span class="caret"></span>
+							<li>
+								<a href="#" role="button" aria-haspopup="true" aria-expanded="false">
+									DATA TOOLS &#9660;	<span class="caret"></span>
 								</a>
-								<ul class="dropdown-menu">
-									<li>
-										
-									</li>																	
-								</ul>
+								
 							</li>						
 						</ul>
 					</div>
